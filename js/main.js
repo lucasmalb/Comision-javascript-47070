@@ -15,24 +15,26 @@ let bienvenido
 */
 
 
+
 bienvenido = prompt('Bienvenido al juego!' + '\n' + '¿quiere empezar a jugar?' + '\n'
     + 'si' + '\n'
     + 'no' + '\n');
     nombre = prompt('¿indique su nombre?');
     apellido = prompt('¿indique su apellido');
-
-    alert('para seleccionar la respuesta, ingrese el numera de la respuesta.')
-
+    
 function saludar(nombre, apellido) {
     alert('hola ' + nombre + ' ' + apellido);
 }
 saludar(nombre, apellido);
 if (bienvenido == 'si') {
 
+
+    alert('para seleccionar la respuesta, ingrese el numero de la respuesta.')
+
     do {
         let respuesta
         do {
-            respuesta = prompt('¿quien fue peron?' + '\n'
+            respuesta = prompt('¿Que cargos ocupo Juan Domingo Peron ?' + '\n'
                 + '1 - presidente' + '\n'
                 + '2 - ministro de guerra' + '\n'
                 + '3 - secretario de trabajo' + '\n'
@@ -72,7 +74,7 @@ if (bienvenido == 'si') {
             respuesta != '4'
         )
         do {
-            respuesta = prompt('¿que jugador marco el golas mas rapido de la historia de un mundial?' + '\n'
+            respuesta = prompt('¿Que jugador marco el golas mas rapido de la historia de un mundial?' + '\n'
                 + '1 - Hakan Sukur (Turquía)' + '\n'
                 + '2 - Diego Maradona (Argentina)' + '\n'
                 + '3 - Adalbert Desu (Rumanía)' + '\n'
