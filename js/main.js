@@ -1,11 +1,11 @@
-let nombre = prompt('¿indique su nombre?');
+/*let nombre = prompt('¿indique su nombre?');
 let apellido = prompt('¿indique su apellido');
 let puntuacion = 0
-let bienvenido = prompt('Bienvenido al juego!' + '\n' + '¿quiere empezar a jugar?' + '\n'
+let bienvenido*/
+bienvenido = prompt('Bienvenido al juego!' + '\n' + '¿quiere empezar a jugar?' + '\n'
     + 'si' + '\n'
     + 'no' + '\n');
-alert('para seleccionar la respuesta, ingrese el numera de la respuesta.')
-nombre = prompt('¿indique su nombre?');
+    nombre = prompt('¿indique su nombre?');
 apellido = prompt('¿indique su apellido');
 function saludar(nombre, apellido) {
     alert('hola ' + nombre + ' ' + apellido);
@@ -13,7 +13,7 @@ function saludar(nombre, apellido) {
 saludar(nombre, apellido);
 if (bienvenido == 'si') {
 
-
+alert('para seleccionar la respuesta, ingrese el numera de la respuesta.')
     do {
         let respuesta
         do {
