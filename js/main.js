@@ -1,19 +1,34 @@
-/*let nombre = prompt('¿indique su nombre?');
-let apellido = prompt('¿indique su apellido');
+/*pre entrega numero 1 de jJAVASCRIPT  
+Comision: 47070
+Alumno: lucas villalba
+Tutor: Facundo Casal
+*/
+
+
+
+
+
+/*let nombre
+let apellido
 let puntuacion = 0
-let bienvenido*/
+let bienvenido
+*/
+
+
 bienvenido = prompt('Bienvenido al juego!' + '\n' + '¿quiere empezar a jugar?' + '\n'
     + 'si' + '\n'
     + 'no' + '\n');
     nombre = prompt('¿indique su nombre?');
-apellido = prompt('¿indique su apellido');
+    apellido = prompt('¿indique su apellido');
+
+    alert('para seleccionar la respuesta, ingrese el numera de la respuesta.')
+
 function saludar(nombre, apellido) {
     alert('hola ' + nombre + ' ' + apellido);
 }
 saludar(nombre, apellido);
 if (bienvenido == 'si') {
 
-alert('para seleccionar la respuesta, ingrese el numera de la respuesta.')
     do {
         let respuesta
         do {
@@ -29,7 +44,7 @@ alert('para seleccionar la respuesta, ingrese el numera de la respuesta.')
             respuesta != '4'
         )
 
-        if (respuesta == '4') {
+        if (respuesta === '4') {
             puntuacion += 1
             console.log('respuesta correcta');
         }
@@ -42,7 +57,7 @@ alert('para seleccionar la respuesta, ingrese el numera de la respuesta.')
                 + '2 - 1945' + '\n'
                 + '3 - 1989' + '\n'
                 + '4 - 1978' + '\n');
-            if (respuesta == 2) {
+            if (respuesta === 2) {
                 puntuacion += 1
                 console.log('respuesta correcta');
             }
@@ -62,7 +77,7 @@ alert('para seleccionar la respuesta, ingrese el numera de la respuesta.')
                 + '2 - Diego Maradona (Argentina)' + '\n'
                 + '3 - Adalbert Desu (Rumanía)' + '\n'
                 + '4 - Edson Pele (Brasil)' + '\n');
-            if (respuesta == '1') {
+            if (respuesta === '1') {
                 puntuacion += 1
                 console.log('respuesta correcta');
             }
@@ -82,7 +97,7 @@ alert('para seleccionar la respuesta, ingrese el numera de la respuesta.')
                 + '2 - querantinocito' + '\n'
                 + '3 - neumocitos' + '\n'
                 + '4 - neurona' + '\n');
-            if (respuesta == '4') {
+            if (respuesta === '4') {
                 puntuacion += 1
                 console.log('respuesta correcta');
             }
@@ -103,7 +118,7 @@ alert('para seleccionar la respuesta, ingrese el numera de la respuesta.')
                 + '2 - Oslo' + '\n'
                 + '3 - Dublin' + '\n'
                 + '4 - Berlin' + '\n');
-            if (respuesta == '2') {
+            if (respuesta === '2') {
                 puntuacion += 1
                 console.log('respuesta correcta');
             }
@@ -123,7 +138,7 @@ alert('para seleccionar la respuesta, ingrese el numera de la respuesta.')
                 + '2 - 0' + '\n'
                 + '3 - 216' + '\n'
                 + '4 - 178' + '\n');
-            if (respuesta == '1') {
+            if (respuesta === '1') {
                 puntuacion += 1
                 console.log('respuesta correcta');
             }
@@ -171,6 +186,7 @@ alert('para seleccionar la respuesta, ingrese el numera de la respuesta.')
 } else {
     alert('sera la proxima!');
 }
+
 
 
 
