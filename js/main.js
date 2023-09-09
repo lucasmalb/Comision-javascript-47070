@@ -8,11 +8,10 @@ Tutor: Facundo Casal
 
 
 
-/*let nombre
+let nombre
 let apellido
 let puntuacion = 0
 let bienvenido
-*/
 
 
 
