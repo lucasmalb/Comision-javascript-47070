@@ -1,8 +1,8 @@
 /*pre entrega numero 1 de jJAVASCRIPT  
 Comision: 47070
 Alumno: lucas villalba
-Tutor: Facundo Casal
-*/
+Tutor: Facundo Casal*/
+
 
 
 
@@ -189,14 +189,40 @@ if (bienvenido == 'si') {
 }
 
 
+/*const pregunta1 = new preguntas
+const pregunta2 = pregunta;
+const pregunta3 = pregunta;
+const pregunta4 = pregunta;
+const pregunta5 = pregunta;
+/*const nombre = lucas
+const apellido = villalba
+const puntuacion = 0
+const bienvenido = prompt('Bienvenido al juego!' + '\n' + '¿quiere empezar a jugar?' + '\n'
++ 'si' + '\n'
++ 'no' + '\n');
+nombre = prompt('¿indique su nombre?');
+apellido = prompt('¿indique su apellido');
+function saludar (nombre, apellido){
+    alert ('hola ' + nombre + ' ' + apellido);
+}
+saludar(nombre, apellido);
+if (bienvenido == 'si') 
 
-
-
-
-
-
-
-
-
-
-
+        function preguntas (pregunta, respuesta1, respuesta2, respuesta3, respuesta4){
+            this.pregunta = pregunta,
+            this.respuesta1 = respuesta1,
+            this.respuesta2 = respuesta2,
+            this.respuesta3 = respuesta3,
+            this.respuesta4 = respuesta4
+        }
+        console.log (preguntas);
+        const pregunta1 = new preguntas ('¿que cargos ocupo juan domingo peron?', 'a- secretario de trabajo', 'b- presidente', 'c- ministro de guerra', 'd- todos')
+        console.log (pregunta1) 
+        const pregunta2 = new preguntas ('¿Cuándo se creó la ONU?', 1918, 1945, 1989, 1978)
+        console.log (pregunta2)
+        const pregunta3 = new preguntas ('¿Que jugador marco el golas mas rapido de la historia de un mundial?', ' Hakan Sukur (Turquía)', 'Diego Maradona (Argentina)', ' Adalbert Desu (Rumanía)', 'Edson Pele (Brasil)')
+        console.log (pregunta3)
+        const pregunta4 = new preguntas ('¿Qué célula se encuentra tanto en humanos como en animales?', 'corazon', ' querantinocito', 'neumocitos', 'neurona')
+        console.log (pregunta4)
+        const pregunta5 = new preguntas ('¿Cual es la capital de Noruega?', 'Oslo', 'Berlin', 'Hensiski', 'kiev')
+        console.log (pregunta5)*/
